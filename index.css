@@ -1,0 +1,44 @@
+body
+{
+    background-image: url("backgroundimage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.divbox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.img
+{
+    height: 250px;
+    width: 200px;
+}
+
+.b
+{
+    background-color: rgb(103, 171, 247);
+    border: hidden;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.15s;
+}
+
+.b:hover
+{
+    background-color: rgb(72, 153, 245);
+    cursor: pointer;
+}
+
+.b:active
+{
+    background-color: rgb(38, 135, 246);
+}
